@@ -1,8 +1,4 @@
-package lineswingwidget;
-
 import java.awt.GridLayout;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -35,7 +31,7 @@ public class MainWindow extends JFrame
 		panel.add(linie);
 		
 		// set title and other options for the winodows
-		setTitle("Hello Worldd");
+		setTitle("please click and drag the mouse to form a line. release to finalize the line.");
 		setSize(800, 600);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);

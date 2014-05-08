@@ -1,5 +1,3 @@
-package gui;
-
 import java.util.LinkedList;
 import java.util.List;
 

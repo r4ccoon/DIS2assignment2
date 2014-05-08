@@ -6,6 +6,9 @@
 
 package assignmenttwodistwo;
 
+import java.awt.Color;
+import java.util.LinkedList;
+
 /**
  *
  * @author rohan
@@ -18,11 +21,9 @@ public class AssignmentTwoDISTwo {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        WindowSystem orgasm ;
-        orgasm = new WindowSystem( 500   , 500 );
-        
-        
-        
+        WindowManager k = new WindowManager();
+        k.addWindow(100, 300);
+        k.addWindow(400, 500); 
     }
     
 }

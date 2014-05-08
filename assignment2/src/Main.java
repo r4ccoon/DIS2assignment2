@@ -1,5 +1,4 @@
-package gui;
-  
+
 public class Main {
 	public static final int width = 1024;
 	public static final int height = 800;

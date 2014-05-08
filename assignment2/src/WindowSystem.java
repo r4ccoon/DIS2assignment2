@@ -1,5 +1,3 @@
-package gui;
-
 import java.awt.Color;
 import de.rwth.hci.Graphics.GraphicsEventSystem;
 
